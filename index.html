@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Shery JS</title>
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div class="homepage">
+            <div class="nav">
+                <div class="NavbarLeft">
+                    <a class="Navlink" href="#">Home</a>
+                    <a class="Navlink" href="#">About</a>
+                    <a class="Navlink" href="#">Event</a>
+                </div>
+                <div class="Navbarcenter">
+                    <a class="Navlink" href="#">Nature</a>
+                </div>
+                <div class="NavbarRight">
+                    <a class="Navlink" href="#">Our Journey</a>
+                </div>
+            </div>
+
+            <div class="herosection">
+                <div class="Animate" id="Box1">
+                    <h2>Introduction</h2>
+                    <p>Nature is a mesmerizing symphony of sights and sounds, offering the rapeutic benefits and life
+                        lessons. </p>
+                    <div class="left-image" id="ImageEffect">
+                        <img src="Images/Nature.jpg" alt="">
+                    </div>
+
+                </div>
+                <div  class="Animate"id="Box2">
+                    <div class="Headings">
+                        <h1>Yo Quiero</h1>
+                        <h1>Nature.</h1>
+                    </div>
+                    <div class="ImageText">
+                        <img src="Images/Flowers.jpg" alt="">
+                        <p>Commited to Sustainablity and Eco-friendly choices for better tomorrow.</p>
+                    </div>
+                </div>
+                <div  class="Animate"id="Box3">
+                    <div id="circle">
+                        <i class="ri-arrow-down-line"></i>
+                    </div>
+                    <h3>visit our gallery</h3>
+                </div>
+            </div>
+        </div>
+        <div class="Motive">
+            <h3>Our Motive</h3>
+            <p>The delicate balance of nature teaches us essential lessons about <span class="img0"></span>
+                sustainability and coexistence.
+                <span class="img1"></span> Ecosystems thrive when various species work together to create a
+                harmonious web of life. By observing these <span class="img2"></span>intricate relationships, we learn the importance of cooperation, adaptability, and stewardship. As caretakers of this planet,it's our responsibility to preserve and protect these
+                <span class="img3"></span>
+                ecosystems for future generations.
+            </p>
+        </div>
+
+        <div class="Picture">
+            <div class="FirstImage">
+                <div class="Images" id="ImageEffect">
+                    <img src="Images/EcosystemImg.jpg" alt="">
+                </div>
+                <h1>Ecosystem</h1>
+                <p>An ecosystem (or ecological system) consists of all the organisms and the physical
+                    environment with which they interact. These biotic and abiotic components are linked
+                    together through nutrient cycles and energy flows.</p>
+            </div>
+            <div class="SecondImage">
+                <div class="Images" id="ImageEffect">
+                    <img src="Images/Synergy.jpg" alt="">
+                </div>
+                <h1>Synergy</h1>
+                <p>Responsibly transitioning their energy portfolio to reduce reliance on fossil fuel generation and
+                    increase renewable and alternative low emission energy sources.</p>
+            </div>
+        </div>
+
+        <div class="Banner">
+            <div class="BannerImg">
+                <img src="Images/Ecosystem Services.jpg" alt="">
+                <img src="Images/Forest.jpg" alt="">
+                <img src="Images/Deer.jpg" alt="">
+                <img src="Images/Peacock.jpg" alt="">
+                <img src="Images/Cheetah.jpg" alt="">
+            </div>
+            <div class="BannerText">
+                <h1>Ecosystem</h1>
+                <h1>Services</h1>
+                <p>Nature provides us with invaluable ecosystem services, including clean air, water, and fertile
+                    soil. Conservation helps ensure these services remain accessible and abundant for future
+                    generations.</p>
+            </div>
+        </div>
+
+        <div class="VideoBox">
+            <video src="Images/mixkit-macaw-parrot-feeding-on-a-branch-4669.mp4" autoplay muted loop>
+            </video>
+            <div class="VideoText">
+                <h1>Think of Future</h1>
+                <button>Join the moment</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!--  Gsap is needed for Basic Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <!-- Scroll Trigger is needed for Scroll Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Three.js is needed for 3d Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+    <!-- ControlKit is needed for Debug Panel -->
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <!-- link sheryjs it is used for Animate the text on webpage. -->
+    <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script> <!-- Recommended -->
+    <script src="script.js"></script>
+</body>
+
+</html>

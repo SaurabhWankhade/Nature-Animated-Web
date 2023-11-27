@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nimbus Sans L";
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding: 3vw 10vw;
+}
+.nav a {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 800;
+  text-decoration: none;
+  color: black;
+}
+.NavbarLeft {
+  display: flex;
+  gap: 30px;
+}
+.Navbarcenter a {
+  position: absolute;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.herosection {
+  width: 100%;
+  margin-top: 15vw;
+  padding: 0vw 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#Box1 {
+  width: 13vw;
+}
+#Box1 p {
+  font-weight: 100;
+  opacity: 0.5;
+  font-size: 12px;
+  margin: 10px 0;
+  text-transform: capitalize;
+}
+#Box1 .left-image {
+  width: 100%;
+  height: 18vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.left-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#Box2 {
+  width: 28vw;
+  min-height: 42vw;
+  position: relative;
+}
+
+#Box2 h1 {
+  letter-spacing: -0.2vw;
+  line-height: 1;
+  font-size: 5vw;
+  font-weight: 400;
+}
+
+#Box2 .Headings {
+  top: -18%;
+  left: -13%;
+  position: absolute;
+}
+#Box2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#Box2 p {
+  font-size: 1.4vw;
+  letter-spacing: -0.07vw;
+  line-height: 1.3;
+  width: 40%;
+}
+.ImageText {
+  width: fit-content;
+  height: fit-content;
+}
+
+
+#Box3 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+#Box3 h3 {
+  color: #5e5e5e;
+  font-weight: 400;
+}
+
+#circle {
+  border-radius: 50%;
+  border: 2px solid #5e5e5e;
+  width: 3vw;
+  height: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#circle i {
+  color: #5e5e5e;
+}
+
+.Motive {
+  margin-top: 7vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 3vw 10vw;
+}
+.Motive p {
+  position: relative;
+  letter-spacing: -0.12vw;
+  line-height: 1.6;
+  right: 0;
+  width: 90%;
+  text-align: right;
+  font-size: 1.9vw;
+}
+.Motive span {
+  display: inline-block;
+  margin: 0 8px;
+  margin-bottom: -12px;
+  border-radius: 100px;
+}
+
+.img0 {
+  width: 90px;
+  height: 45px;
+  background-image: url(Images/Sustainability.jpg);
+  background-size: cover;
+  background-position: 0 60%;
+}
+.img1 {
+  width: 70px;
+  height: 45px;
+  background-image: url(Images/Eco.jpg);
+  background-size: cover;
+  background-position: 15% 65%;
+}
+.img2 {
+  width: 90px;
+  height: 45px;
+  background-image: url(Images/SmallTree.jpg);
+  background-size: cover;
+  background-position: 0 60%;
+}
+.img3 {
+  width: 90px;
+  height: 45px;
+  background-image: url(Images/Protect.jpg);
+  background-size: cover;
+  background-position: 0 60%;
+}
+
+.Picture {
+  display: flex;
+  justify-content: space-between;
+  padding: 3vw;
+  padding-left: 14vw;
+  padding-right: 12vw;
+}
+
+.FirstImage {
+  width: 17vw;
+  margin-top: 5vw;
+}
+.FirstImage p {
+  font-size: 1vw;
+  letter-spacing: -0.07vw;
+  margin-top: 10px;
+  line-height: 1;
+  opacity: 0.6;
+}
+.FirstImage h1 {
+  letter-spacing: -0.1vw;
+  font-weight: 100;
+  font-size: 2vw;
+}
+.FirstImage .Images {
+  width: 100%;
+  height: 25vw;
+  margin-bottom: 1vw;
+}
+
+.FirstImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.SecondImage {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 25vw;
+  margin-top: 10vw;
+}
+.SecondImage .Images {
+  width: 100%;
+  height: 35vw;
+  margin-bottom: 1vw;
+}
+.SecondImage p {
+  font-size: 1vw;
+  letter-spacing: -0.07vw;
+  margin-top: 10px;
+  opacity: 0.6;
+  line-height: 1;
+  text-align: right;
+}
+.SecondImage h1 {
+  letter-spacing: -0.1vw;
+  font-weight: 100;
+  font-size: 2vw;
+}
+.SecondImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Banner {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 6vw;
+}
+.BannerImg {
+  width: 65%;
+  height: 60vh;
+}
+.BannerImg img {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+.BannerText {
+  width: 35%;
+  padding: 0 3vw;
+}
+
+.BannerText h1 {
+  font-size: 2.4vw;
+  letter-spacing: -0.1vw;
+  line-height: 1;
+  font-weight: 400;
+}
+.BannerText p {
+  margin-top: 20px;
+  width: 60%;
+  letter-spacing: -0.07vw;
+  opacity: 0.6;
+  font-size: 1vw;
+}
+
+.VideoBox {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  margin-top: 8vw;
+  background-color: #fff;
+}
+.VideoBox video {
+  width: 100%;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.VideoText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 9999;
+  background-color: #fff;
+  padding: 1vw 2vw;
+  border-radius: 10px;
+}
+
+.VideoText button {
+  padding: 0.8vw 1.7vw;
+  margin-top: 10px;
+  font-size: 0.6vw;
+  text-transform: capitalize;
+  font-weight: 700;
+  border-radius: 100px;
+  background-color: #fff;
+  border: 1px solid #c6c6c6;
+  color: #6f6f6f;
+}
